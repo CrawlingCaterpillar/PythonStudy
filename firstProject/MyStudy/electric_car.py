@@ -10,7 +10,7 @@ class Car:
 
     def get_descriptive(self):
         """返回整洁的描述信息"""
-        long_name = str(self.year) + ' ' + self.make + ' '+ self.model
+        long_name = str(self.year) + ' ' + self.make + ' ' + self.model
         return long_name.title()
 
     def read_odometer(self):
@@ -26,7 +26,7 @@ class Car:
 class ElectricCar(Car):
     """电动车的独特之处"""
 
-    def __init__(self, make, model, year, odometer=0):
+    def __init__(self, make, model, year,  odometer=0):
         """初始化父类属性"""
         super().__init__(make, model, year, odometer)
 

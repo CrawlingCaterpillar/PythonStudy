@@ -10,7 +10,7 @@ class Car:
 
     def get_descriptive(self):
         """返回整洁的描述信息"""
-        long_name = str(self.year) + ' ' + self.make + ' '+ self.model
+        long_name = str(self.year) + ' ' + self.make + ' ' + self.model
         return long_name.title()
 
     def read_odometer(self):
